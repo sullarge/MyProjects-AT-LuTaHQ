@@ -252,6 +252,9 @@ h4 {
 
 footer {
 	background-color: #1F2937;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 	padding: 5% 0px 1% 0PX;
 }
 .details { 
