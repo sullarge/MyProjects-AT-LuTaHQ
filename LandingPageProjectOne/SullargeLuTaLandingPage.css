@@ -294,6 +294,15 @@ footer {
 /*MOBILE ERSION*/
 /*NAVIGATION SECTION*/
 
+
+@media (min-width: 522px) {
+	footer {
+		padding-bottom: 3%;
+		position: sticky;
+		bottom: 0px;
+	}
+}
+
 @media (max-width: 521px) {
 nav {
 	margin-top: 5%;
