@@ -221,7 +221,8 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-
+.sectionFive h2 {
+	font-size: 36px;
 .sectionFive div:nth-child(1){
     margin-top: 4%;
     margin-left: 2%;
