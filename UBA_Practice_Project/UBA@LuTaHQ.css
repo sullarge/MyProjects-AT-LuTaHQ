@@ -224,7 +224,7 @@ h1 {
 
 .sectionFive div:nth-child(1){
     margin-top: 4%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .sectionFive hr {
     border: 2px solid #FF0000;
@@ -304,7 +304,7 @@ h1 {
     border: 1px solid #999999;
     padding: 4% 0px 4% 1%;
     border-left: 0px;
-	font-size: 15px;
+	font-size: 16px;
     border-right: 0px;
     width: 100%;
     
