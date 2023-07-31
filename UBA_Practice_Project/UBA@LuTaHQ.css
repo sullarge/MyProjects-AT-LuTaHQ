@@ -330,8 +330,8 @@ div.sectionEightContainer {
 }
 
 .BackgroundImage {
-    height: 115px;
-    width: 32.8%;
+    height: 160px;
+    width: 33%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -358,7 +358,7 @@ div.BackgroundImage.sectionEightDiv2, div.BackgroundImage.sectionEightDiv3 {
     font-weight: bold;
     width: 100%;
     color: #FFFFFF;
-    height: 115px;
+    height: 160px;
     opacity: 0.5;
     background-color: #FF0000;
 }
