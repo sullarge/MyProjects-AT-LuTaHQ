@@ -1,0 +1,471 @@
+* { 
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+ }
+ a {
+    text-decoration: none;
+    color: #000000;
+ }
+ li a:hover, p.nigeria  a:hover{
+    color: #B10606;
+ }
+p a {
+    color: #999999;
+}
+
+ body {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Metrophobic', sans-serif;
+    background-color:   lightgrey;
+ }
+ header, main, footer { 
+    width: 84%;
+    background-color: white;
+    margin: 0px auto;
+ }
+ header {
+     margin%;
+     padding-left:  1%;
+     padding-top:   1%;
+     padding: 1% 1% 0px 1%;
+ }
+ nav {
+    width: 80%; 
+    border: 0px;
+    border-bottom: 2px solid #999999;
+    padding-bottom: 1%;
+    display: flex;
+    font-size: 12.5px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+header nav ul,div.rowTwo ul  {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+}
+nav li:nth-child(2), li:nth-child(3),li:nth-child(4), li:nth-child(1){
+    margin-right: 10px;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+nav > div button {
+   padding: 5px 15px;
+   background-color: white;
+    text-align: center;
+    color: #999999;
+    border:     1px solid #999999;
+}
+nav > div img#nigeria-Logo {
+    width: 35px;
+    height: 35p;
+}
+
+nav > div img.searchLogo{
+    width: 25px;
+    height: 25px;
+}
+p.nigeria  a {
+    color: black ;
+}
+nav > div img,  p.nigeria {
+    margin-left: 5px;
+}
+nav > div #nigeria-Logo, p, button {
+margin-right: 5px;    
+}
+#RowTwoNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#RowTwoNav > img {
+    width: 200px;
+}
+div.rowTwo {
+    display: flex;
+    align-items: center;
+}
+div.rowTwo button {
+    background-color: #B10606;
+    border-radius: 8px;
+    padding: 16px;
+    border: 0px;
+    color: white;
+    margin-right: 25px;
+    display: flex;
+    justify-content: sace-between;
+    align-items: center;
+}
+div.rowTwo button:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+.sectionOneFlex button:hover, .sectionFive button:hover, footer button:hover {
+    background-color: #999999;
+    cursor: pointer;    
+}
+div.rowTwo button img {
+    width: 20px;
+    height: 18px;
+}
+div.rowTwo ul {
+    margin-left:  25px;
+} 
+div.rowTwo li {
+    font-size: 12.5px;
+    list-style: none;
+    color: #999999;
+}
+div.rowTwo li:nth-child(1), li:nth-child(2),li:nth-child(3),li:nth-child(4),li:nth-child(5){
+    margin-right: 15px;
+}
+div.rowTwo img {
+    width: 25px;
+    height: 25px;
+}
+.sectionOne {
+    box-shadow: 0px 5px 3px -3px #999999;
+}
+.sectionOneFlex {
+    width: 95%;
+    margin: 0% 0px 5% auto;
+    display: flex;
+    padding-top: 6%;
+    justify-content: space-between;
+    align-items: ceter;
+}
+.sectionOneFlex > div {
+    align-self: flex-end;
+}
+.sectionOneFlex > div p {
+    font-size: 21px;
+}
+h1 {
+  margin-bottom: 4%;
+  font-size: 36px;  
+}
+.sectionOneFlex button {
+    background-color: #B10606;
+    padding: 3% 10% 3% 3%;
+    margin-top: 13%;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.sectionOneFlex > img {
+    width: 550px;
+    height: 230px;
+}
+.sectionOne h2, #paragraph {
+    text-align: center;
+}
+ #paragraph {
+    padding-top: 0.7%;
+    padding-bottom: 3%;
+ }
+ .sectionTwo {
+    margin: 5% 0px;
+    float: left;
+ }
+ .sectionTwo img {
+    float: left;
+    width: 33.33333333%;
+ }
+ .sectionThree {
+    clear: left;
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .sectionThree > * {
+    text-align: center;
+    width: 27%;
+    margin-top: 4%;
+ }
+ .sectionThree hr {
+    border: 2px solid #FF0000;
+    width: 16%;
+    margin: 5% auto 12% auto;
+
+ }
+ .sectionFour {
+    margin: 9% 0px 5% 0PX;
+ }
+ .sectionFOur_Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    background-image: url(images/uba-mobile-app-video.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .sectionFive {
+    margin: 8% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionFive div:nth-child(1){
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.sectionFive hr {
+    border: 2px solid #FF0000;
+    width: 16%;
+    margin: 5% 0px 12% 0px;
+}
+.sectionFive button {
+    background-color: #B10606;
+    padding: 3%;
+    margin: 13% 0px 0px 10px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.sectionFiveImagesDiv img {
+            max-width: 250px;
+}
+.sectionSix {
+    text-align: center;
+    margin: 5% 0px;
+}
+.sectionSix h2 {
+    font-size: 48px;
+    margin-bottom: 1%;
+}
+.sectionSix p {
+    font-size: 25px;
+}
+.sectionSeven {
+   display: flex;
+   justify-content: space-between;
+   margin: 5% 0px;
+}
+.sectionSeven > div:nth-child(1) {
+    background-image: url('images/UBA-Faq 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 667px;
+    width: 40%;
+    
+}
+
+.sectionSeven > div:nth-child(1) img {
+   width: 100%;
+}
+#colum2Section7 {
+    width: 59%;
+    margin-right: 0px;
+
+}
+.floatingDiv div:nth-child(1), div:nth-child(2), div:nth-child(3){
+    margin-right: 3%;
+}
+.floatingDiv div:nth-child(4){
+    margin-right: 2%;
+}
+.floatingDiv div {
+    margin-bottom: 5%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    width: 22%;
+    padding: 1.5% 0px;
+    box-shadow: 2px 2px 3px  #999999;
+}
+.PlusIconContainer {
+    margin-left: 3%;
+    clear: left;
+}
+.PlusIconContainer h3 {
+
+    padding-bottom: 2%;
+}
+.PlusIconContainer > div {
+    border: 1px solid #999999;
+    padding: 4% 0px 4% 1%;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100%;
+    
+}
+.PlusIconContainer > div:nth-child(7) {
+    border-bottom: 2px solid #999999;
+}
+.PlusIconContainer > div:nth-child(2) {
+    border-top: 2px solid   #999999;
+}
+ 
+.sectionSeven > div:nth-child(2)  img {
+    width:  20px;
+    height:   20px;
+    margin-right: 2%;
+}
+.sectionEight {
+    margin: 8% 0px 0px 0px;
+}
+div.sectionEightContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BackgroundImage {
+    height: 115px;
+    width: 32.8%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sectionEightDiv1 {
+    background-image: url('images/laptop.jpeg'); 
+}
+.sectionEightDiv2 {
+    background-image: url('images/woman.jpeg');
+}
+.sectionEightDiv3 {
+    background-image: url('images/mood.jpeg');
+}
+div.BackgroundImage.sectionEightDiv2, div.BackgroundImage.sectionEightDiv3 {
+    margin-right: 0px;
+}
+
+.backroundColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    color: #FFFFFF;
+    height: 115px;
+    opacity: 0.5;
+    background-color: #FF0000;
+}
+.backroundColor h2 {
+    margin-top: 0px;
+}
+.backroundColor p {
+    margin-top: 4%;
+}
+footer {
+    font-size: 18px;
+    width: 100%;
+    min-height: 500px;
+    background-color: #000000;
+    padding: 6% 3% 5% 5%;
+    color: #999999;
+}
+div.ContainerFooters {
+    position: relative;
+    width: 100%;
+}
+div.flexLevel1, div.flexLevel11 {
+   float: left;
+}
+.flexLevel1 {
+    width: 19%;
+    margin-right: 0px;
+}
+.flexLevel11 {
+    width: 24%;
+    margin-right: 0px;
+}
+footer h3 {
+    color: white;
+}
+footer img {
+    width: 25px;
+    height: 25px;
+}
+div.flexLevel2 > * {
+    margin-bottom: 9%;
+}
+#unique {
+    margin-right: 0px;
+}
+div.Email {
+    display: flex;
+    align-items: center;
+}
+ input.Email {
+    border: 0px;
+    height: 42px;
+    padding: 2%;
+    padding-left:   5%;
+    float: left;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 60%;
+}
+footer p {
+    font-size: 16px;
+}
+#joinUs {
+    border: 0px;
+    height: 42px;
+    background-color: #B10606;
+    padding-right:   3%;
+    padding-left: 2%;
+    font-size: 12px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 30%;
+    color: white;
+}
+#joinUs:hover, .sectionFive button:hover, .sectionOneFlex button:hover  {
+    background-color: #999999;
+}
+.AppleButtonParagraph {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.AppleButton {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+h5 {
+    margin-left: ;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+}
+div#Social {
+    display: flex;
+    justify-content: space-evenly;
+}
+div#Social  img {
+    padding: 3%;
+    border-radius:  50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+div#Social  img:hover {
+    background-color: #B10606;
+}
