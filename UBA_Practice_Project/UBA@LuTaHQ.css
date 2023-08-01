@@ -222,7 +222,7 @@ h1 {
     justify-content: space-between;
 }
 .sectionFive h2 {
-    font-size: 36px;
+    font-size: 34px;
 }
 .sectionFive div:nth-child(1){
     margin-top: 4%;
@@ -244,6 +244,7 @@ h1 {
 }
 .sectionFiveImagesDiv img {
             max-width: 200px;
+	max-height: 400px;
 }
 .sectionSix {
     text-align: center;
